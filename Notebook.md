@@ -19,4 +19,4 @@
 
 # 11 oct 2021
 ## todo
-- [] the testbench ```driver->LSU->reqrsp_to_axi->axi_slave``` can only work at ```amo==AMONone```, this is quite strange, I will fix it later on
+- [ ] the testbench ```driver->LSU->reqrsp_to_axi->axi_slave``` can only work at ```amo==AMONone```, this is quite strange, I will fix it later on

@@ -10,15 +10,13 @@
 ## done:
 - [x] extend the testbech : driver->LSU->reqrsp_to_axi->axi_slave, in "test/tb_lsu_axi.sv"
 - [X] make a monitor in 'core_to_lsu_test'
+- [x] implement the scorebard
 
 ## discussion in tomorrow's meeting
 - [x] Do I need to use the reqrsp_to_axi module? can I only change LSU to support ssr?
 - [x] Cumstomrize a axi_slave? like a memory?
 - [x] how to debug? how to use monitor? scorebaord
 
-## todo:
-- [x] implement the scorebard
-
 # 11 oct 2021
-## note
-the testbench ```driver->LSU->reqrsp_to_axi->axi_slave``` can only work at ```amo==AMONone```, this is quite strange, I will fix it later on
+## todo
+- [] the testbench ```driver->LSU->reqrsp_to_axi->axi_slave``` can only work at ```amo==AMONone```, this is quite strange, I will fix it later on

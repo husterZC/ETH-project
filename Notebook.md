@@ -25,3 +25,8 @@
 # 20 oct 2021
 ## todo
 - [ ] 注意Datawidth在testbench中，DW=64时，可能有bug 
+
+# 21 oct 2021
+## Meeting discussion
+- [ ] the order of read and write burst transaction
+- [ ] do we need contain the first beat data in the start of write burst request 
